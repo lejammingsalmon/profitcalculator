@@ -1,0 +1,323 @@
+html { 
+  background: url(https://dl.dropbox.com/s/8unerclmbnxy8hw/simcitybg.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+legend{
+    font: bold 18px/2 Helvetica;
+    font-variant:small-caps;
+    letter-spacing:0.15em;
+    background-color: rgba(6,116,166,0.85);
+    border-radius:20px;
+    color: #eee;
+    height:50px;
+    border: 1px solid #9ca299ff;
+}
+legend:hover{
+    background-color: rgb(6,116,166);
+}
+    
+#comb{
+    padding: 2px 10px 0 10px;
+    margin:8px 12px 5px 10px;
+    height: 40px;
+}
+.info legend, #profit legend{
+    padding: 5px 7px 0px 10px;
+    margin:8px 12px 5px 10px;
+    height:40px;
+}
+legend div{
+    margin:8px 12px 5px 10px;
+    float:right;
+}
+legend img{
+    margin:5px;
+    border-radius:30px;
+}
+table#materials{
+    text-align:center;
+    font:18px/2 Helvetica;
+    font-variant: small-caps;
+    letter-spacing: 0.25em;
+    line-height:15px;
+    padding:10px 0 5px 0;
+}
+#factory table#materials{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+td{
+    padding:0 25px;
+}
+nav{
+    position:fixed;
+    float:left;
+    top:10px;
+    left: 20px;
+    text-align:center;
+    font: bold 14px/2 Helvetica;
+    font-variant: small-caps;
+}
+nav table{
+    width:428px;
+    height: 150px;
+}
+nav table td{
+    padding:0 0 0 0;
+    margin: 0 0 0 0;
+}
+nav table td img{
+ border-radius:30px;
+ border: 2px solid #0892d0;
+}
+#factory{
+    position:fixed;
+    display: relative;
+    top: 240px;
+    left:20px;
+    width:200px;
+}
+#materials p{
+    margin-top:5px
+}
+input[type='number']{
+    text-align:center;
+    font: 14px/2 Helvetica;
+    width: 40px;
+    height: 15px;
+}
+.nail{
+    padding-top:0;
+    padding-bottom:0;
+    margin-top:0;
+    margin-top:0;
+    display:inline-block;
+}
+#bss{
+    position:absolute;
+    top:80px;
+    left:500px;  
+    width:200px;
+    z-index: -1;
+}
+#bss table{
+     padding-bottom:0;
+     width:720px;
+}
+#hs{
+    position:absolute;
+    top:340px;
+    left:500px;
+    width:200px;
+    z-index: -1;
+}
+#hs table{
+     padding-bottom:5px;
+     width:720px;
+}
+#fm{
+    position:absolute;
+    top:610px;
+    left:500px;
+    width:200px;
+    z-index: -1;
+}
+#fm table{
+     padding-bottom:5px;
+     width:720px;
+}
+#fs{
+    position:absolute;
+    top:880px;
+    left:500px;
+    width:200px;
+    z-index: -1;
+}
+#fs table{
+     padding-bottom:5px;
+     width:720px;
+}
+#gs{
+    position:absolute;
+    top:1150px;
+    left:500px;
+    width:200px;
+    z-index: -1;
+}
+#gs table{
+     padding-bottom:5px;
+     width:720px;
+}
+#ds{
+    position:absolute;
+    top:1420px;
+    left:500px;
+    width:200px;
+    z-index: -1;
+}
+#ds table{
+     padding-bottom:5px;
+     width:720px;
+}
+#fa{
+    position:absolute;
+    top:1690px;
+    left:500px;
+    width:200px;
+    z-index: -1;
+}
+#fa table{
+     padding-bottom:5px;
+     width:720px;
+}
+#ffr{
+    position:absolute;
+    top:1960px;
+    left:500px;
+    width:200px;
+    z-index: -1;
+}
+#ffr table{
+     padding-bottom:5px;
+     width:720px;
+}
+#as{
+    position:absolute;
+    top:2230px;
+    left:500px;
+    width:200px;
+    z-index: -1;
+}
+#as table{
+     padding-bottom:5px;
+     width:720px;
+}
+fieldset{   
+  box-shadow: 5px 5px 3px 1px #666666ff;   
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius:20px;
+}
+.info fieldset {
+  display: none;
+  color: #000000;
+}
+.info:hover fieldset {
+  display: inline;
+  position:fixed;
+  top: 220px;
+  right: 20px;
+  width: 200px;
+}
+#bss .info table, #hs .info table, #fm .info table, #fs .info table, #gs .info table, #ds .info table, #fa .info table, #ffr .info table, #as .info table, #profit table,.info table{
+    width:200px;
+}
+#profit table.main,.info table.main{
+    margin-bottom:10px;
+}
+#profit td, .info td{
+    padding:0px;
+    margin: 0px;
+    font: 12px/2 Helvetica;
+    font-variant: small-caps;
+    letter-spacing: 0.25em;
+    text-decoration: underline;
+}
+.info thead td{
+    font:bold 18px/2 Helvetica;
+    font-variant: small-caps;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    color: rgb(6,116,166);
+}
+#profit td.label, .info td.label{
+    text-decoration:none;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(6,116,166);
+}
+#profit td.dur, .info td.dur{
+    text-decoration:none;
+    font-style: italic;
+    text-align: justify;
+}
+#profit td.dur img, .info td.dur img, .prof img{
+    float:left;
+    margin-right: 10px;
+}
+#bssp-out,.info td.dur .name, .prof span{
+    margin:5px 5px 0 0;
+}
+.in{   
+    display:inline;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    font: 14px/2 Helvetica;
+    line-height: 10px;
+    padding-left:4px;
+    margin-top:0;
+}
+.out{
+    display:inline;
+    padding: 0;
+    margin: 0;
+    color: #cbcbcbff;
+    font: bold 14px/2 Helvetica;
+    letter-spacing: 0.10em;
+    word-spacing: 0.25em;
+}
+.need{
+    margin: 0;
+    padding-left: 0;
+}
+#materials img{
+    position: relative;
+}
+#profit fieldset{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+.lvl, .ptime, .prof{
+    text-align: justify;
+    font: bold 12px/2 Helvetica;
+    font-variant: small-caps;
+    color: rgb(6,116,166);
+    margin-bottom:0;
+}
+.lvl button, .ptime span, .prof span{
+    padding-left: 5px;
+    font: 12px/2 Helvetica;
+    font-variant: small-caps;
+    color: rgb(0,0,0);
+    padding-bottom:0;
+    border-radius: 20px;
+    border: 1px solid #9ca299ff;
+    box-shadow: inset 0 0 5px rgba(6,116,166,.5);
+}
+.lvl button{
+    font-size: 18px;
+    height: 20px;
+    width: 40px;
+    line-height: 1px;
+    border-radius: 20px;
+    background-color: rgb(6,116,166);
+    color: #eee;
+}
+.prof img{
+    float:left;
+}
+input{
+    color: #eee;
+    background-color: rgb(6,116,166);
+    padding-left:8px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.comdur{
+    display:none;
+}
